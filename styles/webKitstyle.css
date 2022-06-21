@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    height: 100vh;
+    text-align: center;
+    background: radial-gradient(ellipse at top,#FAD4D4,#827397,#ffffff, transparent),radial-gradient(ellipse at top,#FFE3A9,#F4BFBF,#000f90, transparent);
+    -webkit-animation: prettyNiceBG 8s infinite;
+    background-size: 400% 400%;
+}
+
+@-webkit-keyframes prettyNiceBG {
+    0%{background-position: 0 50%}
+    50%{background-position: 100% 100%}
+    100%{background-position: 0 50%}
+}
+
+.BasquiatEyesAndEggs{
+    width: 50vw;
+}
